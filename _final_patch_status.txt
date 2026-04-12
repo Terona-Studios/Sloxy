@@ -1,0 +1,21 @@
+Sloxy JAR Patch Status
+======================
+Timestamp: 2026-04-12T22:38:11.768779
+Jar: C:\Users\majko\Documents\PROJECTS\Server Jars\Sloxy\Sloxy.jar
+Size: 27849608
+SHA256: bbb90b6b4521586476ffe2d1928aea9a7eb03fb2a0ed5cf01f74dfa702399dac
+
+Checks:
+- manifest_impl_title: PASS
+- manifest_impl_version: PASS
+- bungeecord_has_brand_version: PASS
+- queryhandler_proxy_name: PASS
+- reload_message_rebranded: PASS
+- iputils_prefix_rebranded: PASS
+
+Visible FlameCord scan:
+No visible FlameCord strings found.
+
+Note:
+- Startup ASCII banner insertion and global PREFIX constant injection were not bytecode-inserted in this pass.
+- Display/log branding and manifest fields were patched in-place without touching protocol IDs/handshake logic.

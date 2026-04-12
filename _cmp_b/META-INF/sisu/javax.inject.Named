@@ -1,0 +1,7 @@
+org.apache.maven.repository.internal.DefaultArtifactDescriptorReader
+org.apache.maven.repository.internal.DefaultModelCacheFactory
+org.apache.maven.repository.internal.DefaultVersionRangeResolver
+org.apache.maven.repository.internal.DefaultVersionResolver
+org.apache.maven.repository.internal.PluginsMetadataGeneratorFactory
+org.apache.maven.repository.internal.SnapshotMetadataGeneratorFactory
+org.apache.maven.repository.internal.VersionsMetadataGeneratorFactory

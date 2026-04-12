@@ -1,0 +1,9 @@
+dev/_2lstudios/flamecord/antibot/check/LimboCheck.class :: ./sloxy/limbo-ips.txt
+dev/_2lstudios/flamecord/antibot/check/LimboCheck.class :: ./sloxy/limbo-names.txt
+dev/_2lstudios/flamecord/antibot/check/LockdownCheck.class :: ./sloxy/lockdown-ips.txt
+dev/_2lstudios/flamecord/antibot/check/LockdownCheck.class :: ./sloxy/lockdown-names.txt
+dev/_2lstudios/flamecord/antibot/check/ReconnectCheck.class :: ./sloxy/reconnect-ips.txt
+dev/_2lstudios/flamecord/antibot/check/ReconnectCheck.class :: ./sloxy/reconnect-names.txt
+dev/_2lstudios/flamecord/configuration/FlameCordConfiguration.class :: ./sloxy.yml
+dev/_2lstudios/flamecord/configuration/MessagesConfiguration.class :: ./messages.yml
+dev/_2lstudios/flamecord/configuration/ModulesConfiguration.class :: ./modules.yml

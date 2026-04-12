@@ -1,0 +1,41 @@
+[net/md_5/bungee/command/CommandBungee.class]
+- &e.
+&7Created by &bArkFlame Development&7.
+&8 » &b&nhttps://flamecord.com
+&8&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+&7&o"Optimized performance, enhanced security."
++ &e.
+&7Created by &bArkFlame Development&7.
+&8 » &b&nhttps://sloblock-proxy.local
+&8&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+&7&o"Optimized performance, enhanced security."
+[net/md_5/bungee/BungeeCordLauncher.class]
+-   Website: https://flamecord.com
++   Website: https://sloblock-proxy.local
+[dev/_2lstudios/flamecord/configuration/MessagesConfiguration.class]
+- &8&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+&c&lFLAMECORD {0} COMMANDS
+&8&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+&7 /flamecord help: &fShows this message
+&7 /flamecord reload: &fReloads Sloxy files
+&7 /flamecord firewall <add/remove> <ip>: &fFirewall certain IPs
+&7 /flamecord accounts <add/remove/clear> <ip> [name]: &fManage player accounts
+&7 /flamecord lockdown: &fCheck lockdown status
+&7 /bplugins: &fShow the plugin list
+&7 /bip <player>: &fShow the IP and info of a player
+&7 /bkick <player>: &fKick a player from the proxy
+&8&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+&8 » &b&nhttps://flamecord.com
++ &8&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+&c&lFLAMECORD {0} COMMANDS
+&8&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+&7 /flamecord help: &fShows this message
+&7 /flamecord reload: &fReloads Sloxy files
+&7 /flamecord firewall <add/remove> <ip>: &fFirewall certain IPs
+&7 /flamecord accounts <add/remove/clear> <ip> [name]: &fManage player accounts
+&7 /flamecord lockdown: &fCheck lockdown status
+&7 /bplugins: &fShow the plugin list
+&7 /bip <player>: &fShow the IP and info of a player
+&7 /bkick <player>: &fKick a player from the proxy
+&8&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+&8 » &b&nhttps://sloblock-proxy.local

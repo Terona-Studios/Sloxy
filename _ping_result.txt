@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\majko\Documents\PROJECTS\Server Jars\Sloxy\_mc_ping.py", line 50, in <module>
+    with socket.create_connection((HOST, PORT), timeout=TIMEOUT) as s:
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\socket.py", line 864, in create_connection
+    raise exceptions[0]
+  File "C:\Python313\Lib\socket.py", line 849, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it

@@ -1,0 +1,118 @@
+[net/md_5/bungee/netty/HandlerBoss.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[net/md_5/bungee/netty/PipelineUtils.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[net/md_5/bungee/connection/InitialHandler.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[net/md_5/bungee/connection/DownstreamBridge.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[net/md_5/bungee/ServerConnector.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[net/md_5/bungee/connection/UpstreamBridge.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[net/md_5/bungee/http/HttpHandler.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/antibot/handlers/LimboHandler.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/balancer/Balancer.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/captcha/CaptchaGeneration.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[net/md_5/bungee/netty/PipelineUtils$Base.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[net/md_5/bungee/netty/ChannelWrapper.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[net/md_5/bungee/connection/InitialHandler$5.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/commands/FlameCordStatsCommand.class]
+- SloxyStatsCommand.java
++ FlameCordStatsCommand.java
+[dev/_2lstudios/flamecord/commands/FlameCordWhitelistCommand.class]
+- SloxyWhitelistCommand.java
++ FlameCordWhitelistCommand.java
+[dev/_2lstudios/flamecord/utils/PacketUtils.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/LimboThread.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[net/md_5/bungee/UserConnection.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/antibot/LimboFilter.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/commands/FlameCordCommand.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+- SloxyCommand.java
++ FlameCordCommand.java
+[net/md_5/bungee/protocol/packet/PluginMessage.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[net/md_5/bungee/protocol/packet/Handshake.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/antibot/check/NicknameCheck.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/antibot/addressdata/AddressData.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/antibot/check/FastChatCheck.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/antibot/check/PacketsCheck.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/antibot/check/LatencyCheck.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/antibot/check/LockdownCheck.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/configuration/FlameCordConfiguration.class]
+- SloxyConfiguration.java
++ FlameCordConfiguration.java
+[dev/_2lstudios/flamecord/antibot/proxy/ProxyCheck.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/antibot/PacketsData.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/antibot/check/PasswordCheck.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/antibot/check/ReconnectCheck.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/FlameCord.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+- Sloxy.java
++ FlameCord.java
+[dev/_2lstudios/flamecord/antibot/check/RatelimitCheck.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/antibot/check/AccountsCheck.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/antibot/check/CountryCheck.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration
+[dev/_2lstudios/flamecord/antibot/check/LimboCheck.class]
+- getSloxyConfiguration
++ getFlameCordConfiguration

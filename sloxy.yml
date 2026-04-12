@@ -1,0 +1,235 @@
+logger:
+  initialhandler: false
+  exceptions: false
+  dump: false
+  haproxy: false
+  detailed-connect-errors: true
+custom-motd:
+  motd:
+    enabled: false
+    server-placeholders: false
+    motds:
+    - |-
+      &fDefault &#ad15edSloxy&f server &7(%onlineplayers%/%maxplayers%)
+      &fEdit on &#33e0ffsloxy.yml&7 (IridiumColorAPI HEX)
+  sample:
+    enabled: false
+    samples:
+    - |-
+      &fDefault &#ad15edSloxy&f server &7(%onlineplayers%/%maxplayers%)
+      &fEdit on &#33e0ffsloxy.yml&7 (IridiumColorAPI HEX)
+  protocol:
+    enabled: false
+    name: '&c&lMaintenance'
+    always-show: false
+  maxplayers:
+    enabled: false
+    amount: 1000
+    justonemore: false
+  fakeplayers:
+    enabled: false
+    amount: 3
+    mode: DIVISION
+tcp-fast-open: 3
+antibot:
+  latency:
+    enabled: true
+    firewall: true
+    limit: 900
+    log: true
+  accounts:
+    enabled: true
+    firewall: true
+    limit: 3
+    log: true
+    whitelist:
+    - Nickname
+  country:
+    enabled: true
+    firewall: true
+    blacklist:
+    - CN
+    - HK
+    - RU
+    - IN
+    - TH
+    - ID
+    - DZ
+    - VN
+    - IR
+    - PK
+    whitelist: []
+    log: true
+  fastchat:
+    enabled: true
+    firewall: true
+    time: 1000
+    log: true
+    log_cooldown: 1000
+    repetition:
+      enabled: true
+      chat: true
+      threshold: 2
+      length: 16
+      period: 5000
+      commands:
+      - /r
+      - /reg
+      - /register
+      firewall: false
+      kick: false
+  firewall:
+    enabled: true
+    exceptions:
+    - BadPacketException
+    - QuietException
+    - IllegalStateConfig
+    - FastException
+    time: 60
+    log: true
+    whitelist:
+    - 127.0.0.1
+    ipset: true
+  nickname:
+    enabled: true
+    firewall: true
+    blacklist:
+    - mcstorm
+    - mcdown
+    - mcbot
+    - theresa_bot
+    - dropbot
+    - kingbot
+    log: true
+  password:
+    enabled: true
+    firewall: true
+    limit: 3
+    login-commands:
+    - '/login '
+    - '/l '
+    - '/register '
+    - '/reg '
+    log: true
+  ratelimit:
+    enabled: true
+    firewall: true
+    connections-per-second: 3
+    pings-per-second: 8
+    log: true
+    whitelist:
+    - 127.0.0.1
+  reconnect:
+    enabled: true
+    attempts: 2
+    ping-attempts: 0
+    max-time: 15000
+    min-time: 1000
+    log: true
+    connections-trigger: 1
+    seconds-active: 5
+    geyser-bypass: true
+    whitelist: true
+  packets:
+    enabled: true
+    firewall: true
+    log: true
+    debug: false
+    vls-per-byte: 0.0017
+    vls-per-packet: 0.01
+    vls-to-kick: 100.0
+    vls-to-cancel: 25.0
+  proxy:
+    enabled: true
+    log: true
+    firewall: true
+    online-check: false
+    email: flamecord@gmail.com
+    whitelist:
+    - 127.0.0.1
+    lists:
+    - https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt
+    - https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt
+    - https://raw.githubusercontent.com/scriptzteam/ProtonVPN-VPN-IPs/main/exit_ips.txt
+    - https://raw.githubusercontent.com/mmpx12/proxy-list/master/ips-list.txt
+    - https://check.torproject.org/torbulkexitlist?ip=1.1.1.1
+    - https://cinsscore.com/list/ci-badguys.txt
+    - https://lists.blocklist.de/lists/all.txt
+    - https://blocklist.greensnow.co/greensnow.txt
+    - https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/stopforumspam_7d.ipset
+    - https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies.txt
+    - https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks4.txt
+    - https://raw.githubusercontent.com/X4BNet/lists_vpn/refs/heads/main/output/vpn/ipv4.txt
+    - https://raw.githubusercontent.com/X4BNet/lists_vpn/refs/heads/main/output/datacenter/ipv4.txt
+    - https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt
+    - https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks4.txt
+    - https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks5.txt
+    - https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/proxy.txt
+    - https://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/allive.txt
+    - https://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/http_proxies.txt
+    - https://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/socks4_proxies.txt
+    - https://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/socks5_proxies.txt
+    - https://raw.githubusercontent.com/officialputuid/KangProxy/main/http/http.txt
+    - https://raw.githubusercontent.com/officialputuid/KangProxy/main/https/https.txt
+    - https://raw.githubusercontent.com/officialputuid/KangProxy/main/socks4/socks4.txt
+    - https://raw.githubusercontent.com/officialputuid/KangProxy/main/socks5/socks5.txt
+    - https://vakhov.github.io/fresh-proxy-list/http.txt
+    - https://vakhov.github.io/fresh-proxy-list/https.txt
+    - https://vakhov.github.io/fresh-proxy-list/socks4.txt
+    - https://vakhov.github.io/fresh-proxy-list/socks5.txt
+    - https://raw.githubusercontent.com/monosans/proxy-list/main/proxies.json
+    - https://raw.githubusercontent.com/Coocoobau/vpn-ip-lists/main/nordvpn-ips.txt
+    - https://raw.githubusercontent.com/Coocoobau/vpn-ip-lists/main/protonvpn-ips.txt
+    - https://raw.githubusercontent.com/Coocoobau/vpn-ip-lists/main/windscribevpn-ips.txt
+    - https://raw.githubusercontent.com/scriptzteam/ProtonVPN-VPN-IPs/main/entry_ips.txt
+    - http://az0-vpnip-public.oooninja.com/ip.txt
+    - https://www.dan.me.uk/tornodes
+    - https://raw.githubusercontent.com/avastel/proxy-bot-ips-lists/main/avastel-proxy-bot-ips-1day.txt
+    - https://raw.githubusercontent.com/avastel/proxy-bot-ips-lists/main/avastel-proxy-bot-ips-blocklist-5days.txt
+    - https://raw.githubusercontent.com/avastel/proxy-bot-ips-lists/main/avastel-proxy-bot-ips-blocklist-8days.txt
+  lockdown:
+    enabled: true
+    log: true
+    duration: 5000
+    period: 5000
+    period-limit: 4
+  limbo:
+    enabled: true
+    log: true
+    whitelist: true
+    trigger:
+      connections: 2
+      period: 5
+      seconds-active: 5
+    dimension: 0
+    captcha-count: 100
+    timeout: 30
+balancer:
+  enabled: false
+  on-join: true
+  fallback: true
+  lobby-command: true
+  command-blacklist:
+  - auth
+  servers:
+  - lobby
+chained-proxy-support: false
+chained-proxy:
+  support-downstream: false
+allow-invalid-names: false
+large-payloads: false
+maintenance:
+  enabled: false
+  protocol: '&c&lMaintenance'
+  motd: |-
+    &c&lMaintenance
+    &cCome back later!
+  sample:
+  - '&c&lMaintenance'
+  - '&cCome back later!'
+  kick: |-
+    &c&lMaintenance
+
+    &cCome back later!
+  whitelist:
+  - ''

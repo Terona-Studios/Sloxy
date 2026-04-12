@@ -1,0 +1,25 @@
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[22:54:25 INFO]: Using Java compression
+ 
+Sloxy (SloBlock Proxy)
+Proxy started
+ 
+[22:54:25 INFO]: ?????????????????????????????
+[22:54:25 INFO]:   Sloxy version Sloxy (SloBlock Proxy)
+[22:54:25 INFO]:   Website: https://flamecord.com
+[22:54:25 INFO]: ?????????????????????????????
+[22:54:26 WARN]: Forced host server pvp is not defined
+[22:54:26 INFO]: [Sloxy] Loading whitelisted items from file.
+[22:54:26 INFO]: [Sloxy] Loading lockdown whitelist from file.
+[22:54:26 INFO]: [Sloxy] Loaded 0 entries into User Whitelist.
+[22:54:26 INFO]: [Sloxy] Failed to load proxies from http://az0-vpnip-public.oooninja.com/ip.txt
+[22:54:26 INFO]: [Sloxy] Generating captcha [0/100]
+[22:54:27 INFO]: [Sloxy] Failed to load proxies from https://raw.githubusercontent.com/avastel/proxy-bot-ips-lists/main/avastel-proxy-bot-ips-blocklist-5days.txt
+[22:54:27 INFO]: [Sloxy] Failed to load proxies from https://raw.githubusercontent.com/officialputuid/KangProxy/main/https/https.txt
+[22:54:27 INFO]: [Sloxy] Failed to load proxies from https://raw.githubusercontent.com/avastel/proxy-bot-ips-lists/main/avastel-proxy-bot-ips-blocklist-8days.txt
+[22:54:27 INFO]: [Sloxy] Failed to load proxies from https://raw.githubusercontent.com/officialputuid/KangProxy/main/socks4/socks4.txt
+[22:54:27 INFO]: Listening on /0.0.0.0:25577
+[22:54:27 INFO]: [Sloxy] Generating captcha [100/100]
+[22:54:27 INFO]: [Sloxy] Captcha generated in 1009 ms
+[22:54:28 INFO]: [Sloxy] Loading proxies (97,44%)
+[22:54:30 INFO]: [Sloxy] Loaded a total of 68178 proxies to the database (3,49s)!

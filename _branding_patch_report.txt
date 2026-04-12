@@ -1,0 +1,156 @@
+[net/md_5/bungee/Bootstrap.class]
+- *** ERROR *** FlameCord requires Java 8 or above to function! Please download and install it!
++ *** ERROR *** Sloxy requires Java 8 or above to function! Please download and install it!
+[net/md_5/bungee/command/CommandReload.class]
+- FlameCord has been reloaded. This is NOT advisable and you will not be supported with any issues that arise! Please restart FlameCord ASAP.
++ Sloxy has been reloaded. This is NOT advisable and you will not be supported with any issues that arise! Please restart Sloxy ASAP.
+[net/md_5/bungee/netty/HandlerBoss.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[net/md_5/bungee/netty/PipelineUtils.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[net/md_5/bungee/connection/InitialHandler.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[net/md_5/bungee/BungeeCord.class]
+- Cannot use FlameCord in directory with ! in path.
++ Cannot use Sloxy in directory with ! in path.
+- FlameCord is using 
++ Sloxy is using 
+- Shutting down FlameCord linux command thread
++ Shutting down Sloxy linux command thread
+- FlameCord
++ Sloxy
+- 2.5.5
++ Sloxy (SloBlock Proxy)
+[net/md_5/bungee/connection/DownstreamBridge.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[net/md_5/bungee/ServerConnector.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[net/md_5/bungee/connection/UpstreamBridge.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[net/md_5/bungee/http/HttpHandler.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[dev/_2lstudios/flamecord/antibot/handlers/LimboHandler.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[dev/_2lstudios/flamecord/balancer/Balancer.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[dev/_2lstudios/flamecord/captcha/CaptchaGeneration.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[net/md_5/bungee/netty/PipelineUtils$Base.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[net/md_5/bungee/netty/ChannelWrapper.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[net/md_5/bungee/connection/InitialHandler$5.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[dev/_2lstudios/flamecord/commands/FlameCordStatsCommand.class]
+- FlameCordStatsCommand.java
++ SloxyStatsCommand.java
+[dev/_2lstudios/flamecord/utils/IPUtils.class]
+- [FlameCord] Could not get InetAddress for 
++ [§5Slo§bxy] Could not get InetAddress for 
+[dev/_2lstudios/flamecord/commands/FlameCordWhitelistCommand.class]
+- FlameCordWhitelistCommand.java
++ SloxyWhitelistCommand.java
+[dev/_2lstudios/flamecord/utils/PacketUtils.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[dev/_2lstudios/flamecord/LimboThread.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[net/md_5/bungee/UserConnection.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[dev/_2lstudios/flamecord/antibot/LimboFilter.class]
+- FlameCord-%d
++ Sloxy-%d
+- getFlameCordConfiguration
++ getSloxyConfiguration
+- §c[FlameCord] §aFilter reloading
++ §c[§5Slo§bxy] §aFilter reloading
+[dev/_2lstudios/flamecord/commands/FlameCordCommand.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+- FlameCordCommand.java
++ SloxyCommand.java
+[net/md_5/bungee/protocol/packet/PluginMessage.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[net/md_5/bungee/protocol/packet/Handshake.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[net/md_5/bungee/query/QueryHandler.class]
+- FlameCord_Proxy
++ Sloxy_Proxy
+[dev/_2lstudios/flamecord/antibot/check/NicknameCheck.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[dev/_2lstudios/flamecord/antibot/addressdata/AddressData.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[dev/_2lstudios/flamecord/antibot/check/FastChatCheck.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[dev/_2lstudios/flamecord/antibot/check/PacketsCheck.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[dev/_2lstudios/flamecord/antibot/check/LatencyCheck.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[dev/_2lstudios/flamecord/antibot/check/LockdownCheck.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[dev/_2lstudios/flamecord/configuration/FlameCordConfiguration.class]
+- FlameCordConfiguration.java
++ SloxyConfiguration.java
+[dev/_2lstudios/flamecord/antibot/proxy/ProxyCheck.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[dev/_2lstudios/flamecord/managers/UserWhitelistManager.class]
+- [FlameCord] Loaded 
++ [§5Slo§bxy] Loaded 
+- [FlameCord] Could not create whitelist file for: 
++ [§5Slo§bxy] Could not create whitelist file for: 
+[dev/_2lstudios/flamecord/antibot/PacketsData.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[dev/_2lstudios/flamecord/antibot/check/PasswordCheck.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[dev/_2lstudios/flamecord/antibot/check/ReconnectCheck.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[dev/_2lstudios/flamecord/FlameCord.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+- FlameCord.java
++ Sloxy.java
+[dev/_2lstudios/flamecord/antibot/check/RatelimitCheck.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[dev/_2lstudios/flamecord/antibot/check/AccountsCheck.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[dev/_2lstudios/flamecord/antibot/check/CountryCheck.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[dev/_2lstudios/flamecord/antibot/check/LimboCheck.class]
+- getFlameCordConfiguration
++ getSloxyConfiguration
+[dev/_2lstudios/flamecord/antibot/LoggerWrapper.class]
+- FlameCord
++ Sloxy
+[dev/_2lstudios/flamecord/configuration/MessagesConfiguration.class]
+- [FlameCord] Tried to get translation '
++ [§5Slo§bxy] Tried to get translation '

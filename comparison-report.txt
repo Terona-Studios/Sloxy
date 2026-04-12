@@ -1,0 +1,2 @@
+DIFF:META-INF\versions\11\module-info.class
+DIFF:META-INF\versions\9\module-info.class

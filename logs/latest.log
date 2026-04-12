@@ -1,0 +1,40 @@
+[22:57:32] [main/INFO]: Using Java compression
+ 
+Sloxy (SloBlock Proxy)
+Proxy started
+ 
+[22:57:32] [main/INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[22:57:32] [main/INFO]:   Sloxy version Sloxy (SloBlock Proxy)
+[22:57:32] [main/INFO]:   Website: https://sloblock-proxy.local
+[22:57:32] [main/INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[22:57:32] [main/WARN]: Forced host server pvp is not defined
+[22:57:32] [main/INFO]: [Sloxy] Loading whitelisted items from file.
+[22:57:32] [main/INFO]: [Sloxy] Loading lockdown whitelist from file.
+[22:57:32] [main/INFO]: [Sloxy] Loaded 0 entries into User Whitelist.
+[22:57:33] [pool-7-thread-1/INFO]: [Sloxy] Generating captcha [0/100]
+[22:57:33] [Thread-24/INFO]: [Sloxy] Failed to load proxies from https://raw.githubusercontent.com/officialputuid/KangProxy/main/http/http.txt
+[22:57:33] [Thread-39/INFO]: [Sloxy] Failed to load proxies from https://raw.githubusercontent.com/avastel/proxy-bot-ips-lists/main/avastel-proxy-bot-ips-1day.txt
+[22:57:33] [Netty Boss IO Thread #0/WARN]: Could not bind to host /0.0.0.0:25577
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:577) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301) ~[?:?]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148) ~[Sloxy.jar:Sloxy]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434) ~[Sloxy.jar:Sloxy]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353) ~[Sloxy.jar:Sloxy]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:492) ~[Sloxy.jar:Sloxy]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:471) ~[Sloxy.jar:Sloxy]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994) ~[Sloxy.jar:Sloxy]
+	at io.netty.channel.Channel.bind(Channel.java:302) ~[Sloxy.jar:Sloxy]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380) ~[Sloxy.jar:Sloxy]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[Sloxy.jar:Sloxy]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[Sloxy.jar:Sloxy]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[Sloxy.jar:Sloxy]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[Sloxy.jar:Sloxy]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[Sloxy.jar:Sloxy]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[Sloxy.jar:Sloxy]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:57:34] [pool-7-thread-1/INFO]: [Sloxy] Generating captcha [100/100]
+[22:57:34] [pool-7-thread-1/INFO]: [Sloxy] Captcha generated in 1018 ms
+[22:57:35] [Thread-42/INFO]: [Sloxy] Loaded a total of 67807 proxies to the database (1,14s)!
